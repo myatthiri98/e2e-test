@@ -1,0 +1,4 @@
+appId: "com.myatthiri.e2etest"
+---
+- launchApp
+- assertVisible: "Welcome!"

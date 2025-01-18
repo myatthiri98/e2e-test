@@ -1,0 +1,13 @@
+appId: "com.myatthiri.e2etest"
+---
+- launchApp
+- tapOn: "Explore.*"
+- tapOn: ".*File-based routing"
+- assertVisible: "This app has two screens.*"
+- tapOn: ".*Images"
+- assertVisible: "Learn More"
+- scroll
+- tapOn: ".*Images"
+- tapOn: "Home.*"
+- tapOn: { id: "inputId" }
+- inputText: "I'm entering text!"
